@@ -1,5 +1,7 @@
 // Import ReactDOM from react-dom module
 import ReactDOM from "react-dom";
+import App from "./App"; // Import App component
+import "./index.css"; // Import index.css file
 
 // Render the App component into the DOM element with id 'root' in the index.html
 // file of the project folder and then run the application in the browser
