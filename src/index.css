@@ -44,6 +44,8 @@
     --container-width-md: 86%;
     --container-width-sm: 90%;
 
+    --transition: all 0.4s ease;
+
 }
 
 @media screen and (min-width: 968px) {
@@ -73,5 +75,97 @@ body {
     background-color: var(--body-color);
     line-height: 1.7;
     background-image: url(./assets/bg-texture.png);
-    
+}
+
+a {
+    color: var(--first-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--first-color-alt); 
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto; /* center horizontally */
+}
+
+
+.section {
+    margin-top: 8rem;
+}
+
+.section__title, 
+.section__subtitle {
+  text-align: center;
+}
+
+.section__title {
+    /* font-size: var(--biggest-font-size); */
+    color: var(--first-color);
+    margin-bottom: 2rem;
+}
+
+.section__subtitle { 
+  display: block;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.text__light {
+    color: var(--text-color-light);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--first-color);
+    padding: .75rem 1.2rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    border: 1px solid var(--first-color);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--first-color);
+    color: var(--body-color);
+    border: transparent;
+}
+
+.btn--primary {
+    background-color: var(--first-color);
+    color: var(--body-color);
+    border: transparent;
+}
+
+.btn--primary:hover {
+    background-color: var(--first-color-alt);
+    color: var(--body-color);
+    border: transparent;
 }
