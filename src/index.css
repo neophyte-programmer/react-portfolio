@@ -128,7 +128,7 @@ img {
 .section__title {
     /* font-size: var(--biggest-font-size); */
     color: var(--first-color);
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .section__subtitle { 
