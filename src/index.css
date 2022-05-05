@@ -14,17 +14,17 @@
 
 /* CSS VARIABLES */
 :root {
-	--first-hue: 620;
-	--sat: 66%;
-	--lig: 75%;
-	--second-hue: 219;
+	--first-hue: 220;
+	--sat: 97%;
+	--lig: 65%;
+	--second-hue: 222;
 	--first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-	--first-color-alt: hsl(var(--first-hue), var(--sat), 61%); /* -4% */
+	--first-color-alt: hsl(var(--first-hue), var(--sat), 55%); 
 	--title-color: hsl(var(--second-hue), 15%, 95%);
 	--text-color: hsl(var(--second-hue), 8%, 75%);
 	--text-color-light: hsl(var(--second-hue), 4%, 55%);
-	--body-color: hsl(var(--second-hue), 48%, 8%);
-	--container-color: hsl(var(--second-hue), 32%, 12%);
+	--body-color: hsl(var(--second-hue), 48%, 7%);
+	--container-color: hsl(var(--second-hue), 32%, 10%);
 
 	/*========== Font and typography ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
