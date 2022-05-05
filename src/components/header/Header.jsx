@@ -14,7 +14,7 @@ const Header = () => {
         <ActionButtons />
         <HeaderSocials />
 
-        <div className="about__image-container">
+        <div className="header__image-container">
           <img src={ME} alt="" />
         </div>
 
