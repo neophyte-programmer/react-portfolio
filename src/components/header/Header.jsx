@@ -1,6 +1,8 @@
 import React from 'react'
 import './header.css'
 import ActionButtons from './ActionButtons'
+import HeaderSocials from './HeaderSocials'
+import ME from './../../assets/me.png'
 
 const Header = () => {
   return (
@@ -10,6 +12,14 @@ const Header = () => {
         <h1 className="section__title"> Nutifafa Afi Attor </h1>
         <h5 className="section__subtitle text__light">Software Developer</h5>
         <ActionButtons />
+        <HeaderSocials />
+
+        <div className="about__image-container">
+          <img src={ME} alt="" />
+        </div>
+
+        <a href="#about" className='scroll__down'>Scroll Down</a>
+
 
       </div>
 
