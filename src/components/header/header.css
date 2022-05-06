@@ -68,11 +68,11 @@ header {
 /*=========== MEDIA QUERIES =========== */
 
 /*====== Medium Devices ====== */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 78vh;
     }
-}
+} */ 
 
 /*====== Small Devices ====== */
 @media screen and (max-width: 600px) {
