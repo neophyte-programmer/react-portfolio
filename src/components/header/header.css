@@ -45,7 +45,7 @@ header {
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    border-radius: 12rem 12rem 3rem 3rem;
     /* border-radius: 12rem; */
     overflow: hidden;
 }
@@ -67,13 +67,6 @@ header {
 
 /*=========== MEDIA QUERIES =========== */
 
-/*====== Medium Devices ====== */
-/* @media screen and (max-width: 1024px) {
-    header {
-        height: 78vh;
-    }
-} */ 
-
 /*====== Small Devices ====== */
 @media screen and (max-width: 600px) {
     header {
@@ -83,4 +76,18 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
+
+    /* .header__image-container {
+        margin-left: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__image-container img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+    } */
+
 }
