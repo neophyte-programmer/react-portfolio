@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <GiMedal className="about__card-icon" />
               <h5>Experience</h5>
-              <small>3+ Working Years</small>
+              <small>3+ Years</small>
             </article>
 
             <article className="about__card">
