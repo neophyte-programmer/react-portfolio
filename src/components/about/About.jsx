@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpeg'
+import ME from '../../assets/me-about.jpg'
 import { GiMedal } from 'react-icons/gi'
 import { BsPeople } from 'react-icons/bs'
 import { BiLibrary } from 'react-icons/bi'
