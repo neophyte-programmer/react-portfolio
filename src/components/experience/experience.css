@@ -1,0 +1,53 @@
+.experience__container {
+	padding-top: 2rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+}
+
+.experience__frontend,
+.experience__backend {
+	background: var(--container-color);
+	padding: 2.4rem 5rem;
+	border-radius: 2rem;
+	border: 1px solid var(--first-color);
+	transition: var(--transition);
+}
+
+.experience__frontend:hover,
+.experience__backend:hover {
+	border: 1px solid var(--first-color);
+	background-color: var(--body-color);
+}
+
+.experience__title {
+	text-align: center;
+	margin-bottom: 2rem;
+	color: var(--first-color);
+}
+
+.experience__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 2rem;
+}
+
+.experience__item {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.experience__icon {
+	color: var(--first-color);
+	font-size: 1.5rem;
+}
+
+.experience__subtitle {
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+.experience__description {
+	font-size: var(--smaller-font-size);
+}
