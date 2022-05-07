@@ -129,11 +129,11 @@ img {
 .section__title {
 	/* font-size: var(--biggest-font-size); */
 	color: var(--first-color);
-	margin-bottom: 2rem;
+	/* margin-bottom: 1rem; */
 }
 
 .section__subtitle {
-	margin-top: 1rem;
+	padding-top: 2rem;
 	display: block;
 	font-size: var(--smaller-font-size);
 	color: var(--text-color-light);
