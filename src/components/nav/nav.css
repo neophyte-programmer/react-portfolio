@@ -1,0 +1,29 @@
+nav {
+    background: rgba(0, 0, 0, 0.4);
+    width: max-content;
+    display: block;
+    padding: .7rem 1.7rem;
+    z-index: 100;
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);  
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(10px);  
+}
+
+.nav__link {
+    background: transparent;
+    padding: .7rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--text-color-light);
+    font-size: 1.1rem;
+}
+
+.nav__link:hover, .nav__link.active {
+    color: #fff;
+    background: linear-gradient(to bottom, var(--first-color) 0%, transparent);
+}
