@@ -1,33 +1,82 @@
 .about__container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+	display: grid;
+	grid-template-columns: 35% 50%;
+	gap: 15%;
+    padding-top: 3rem;
 }
 
 .about__image-container {
-    width: 100%;
-    aspect-ratio: 1/1; /* 1:1 aspect ratio - height will match the width */
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent 0, transparent, var(--first-color), transparent);
-    display: grid;
-    place-items: center;
+	width: 100%;
+	aspect-ratio: 1/1; /* 1:1 aspect ratio - height will match the width */
+	border-radius: 2rem;
+	background: linear-gradient(
+		45deg,
+		transparent 0,
+		transparent,
+		var(--first-color),
+		transparent
+	);
+	display: grid;
+	place-items: center;
 }
 
 .about__img {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
-    height: 100%;
-    width: 100%;
+	border-radius: 2rem;
+	overflow: hidden;
+	transform: rotate(10deg);
+	transition: var(--transition);
+	height: 100%;
+	width: 100%;
 }
 
 .about__img:hover {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
 }
 
 .about__img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.about__cards {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.5rem;
+}
+
+.about__card {
+	background: var(--container-color);
+	border-radius: 1rem;
+	padding: 2rem;
+	border: 1px solid var(--first-color);
+	text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: var(--title-color);
+	border: 1px solid var(--first-color);
+    color: var(--body-color);
+    cursor: pointer;
+}
+
+.about__card-icon {
+    color: var(--first-color);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 1rem;
+}
+
+.about__card small {
+    font-size: var(--smaller-font-size);
+    color: var(--first-color);
+}
+
+.about__description {
+    margin: 2rem 0 2.6rem;
+    color: var(--text-color);
 }
