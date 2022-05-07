@@ -2,24 +2,29 @@ import React from 'react'
 import './nav.css'
 import { AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
 import {BiBook, BiMessageSquareDetail} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
+import { RiServiceLine } from 'react-icons/ri'
+import { useState } from 'react' // importing useState Hook which will allow the detection of active nav link when clicked
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#') // It is going to be '#' by default
+
   return (
     <nav>
-      <a href="#" className='nav__link active'>
+      {/* If the activeNav = # give it the active class else, give it nothing */}
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : '' } > 
         <AiOutlineHome />
       </a>
-      <a href="#about" className='nav__link'>
+      {/* Changing the default link to the one which is being clicked then adding the active class  */}
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : '' } >
         <AiOutlineUser />
       </a>
-      <a href="#experience" className='nav__link'>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : '' } >
         <BiBook />
       </a>
-      <a href="#services" className='nav__link'>
+      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : '' } >
         <RiServiceLine />
       </a>
-      <a href="#contact" className='nav__link'>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : '' } >
         <BiMessageSquareDetail />
       </a>
 
