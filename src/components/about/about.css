@@ -48,7 +48,7 @@
 .about__card {
 	background: var(--container-color);
 	border-radius: 1rem;
-	padding: 2rem;
+	padding: 1rem;
 	border: 1px solid var(--first-color);
 	text-align: center;
     transition: var(--transition);
@@ -72,11 +72,64 @@
 }
 
 .about__card small {
-    font-size: var(--smaller-font-size);
+    font-size: var(--tiny-font-size);
     color: var(--first-color);
 }
 
 .about__description {
     margin: 2rem 0 2.6rem;
     color: var(--text-color);
+}
+
+/*=============== GENERAL MEDIA QUERIES ===============*/
+/* ==== Medium Devices ==== */
+@media screen and (max-width: 1024px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding-top: 1rem;
+    }
+
+    .about__image-container {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about__description {
+        margin: 1rem 0 1.5rem ;
+    }
+}
+/* ==== Small Devices ==== */
+@media screen and (max-width: 600px) {
+    .about__image-container {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__description {
+        margin: 1.5rem 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about__image-container {
+        width: 80%;
+        margin: 0 auto 2rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
 }
