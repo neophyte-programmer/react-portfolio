@@ -1,0 +1,33 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about__image-container {
+    width: 100%;
+    aspect-ratio: 1/1; /* 1:1 aspect ratio - height will match the width */
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent 0, transparent, var(--first-color), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about__img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    height: 100%;
+    width: 100%;
+}
+
+.about__img:hover {
+    transform: rotate(0deg);
+}
+
+.about__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
