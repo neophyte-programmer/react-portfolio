@@ -14,7 +14,7 @@ nav {
     backdrop-filter: blur(10px);  
 }
 
-.nav__link {
+nav a {
     background: transparent;
     padding: .7rem;
     border-radius: 50%;
@@ -23,7 +23,7 @@ nav {
     font-size: 1.1rem;
 }
 
-.nav__link:hover, .nav__link.active {
+nav a:hover, nav a.active {
     color: #fff;
     background: linear-gradient(to bottom, var(--first-color) 0%, transparent);
 }
