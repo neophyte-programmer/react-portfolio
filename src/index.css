@@ -23,8 +23,8 @@
 	--title-color: hsl(var(--second-hue), 15%, 95%);
 	--text-color: hsl(var(--second-hue), 8%, 75%);
 	--text-color-light: hsl(var(--second-hue), 4%, 55%);
-	--body-color: hsl(var(--second-hue), 48%, 7%);
-	--container-color: hsl(var(--second-hue), 32%, 10%);
+	--body-color: hsl(var(--second-hue), 48%, 11%);
+	--container-color: hsl(var(--second-hue), 32%, 15%);
 
 	/*========== Font and typography ==========*/
 	/*.5rem = 8px | 1rem = 16px ...*/
