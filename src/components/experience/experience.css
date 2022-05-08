@@ -51,3 +51,37 @@
 .experience__description {
 	font-size: var(--smaller-font-size);
 }
+
+/*=============== GENERAL MEDIA QUERIES ===============*/
+/* ==== Medium Devices ==== */
+@media screen and (max-width: 1024px) {
+	.experience__container {
+		grid-template-columns: 1fr;
+	}
+
+	.experience__frontend,
+	.experience__backend {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+	}
+
+    .experience__content {
+        padding: 1rem;
+        place-items: center;
+    }
+}
+
+
+/* ==== Small Devices ==== */
+@media screen and (max-width: 600px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__frontend,
+	.experience__backend {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}
