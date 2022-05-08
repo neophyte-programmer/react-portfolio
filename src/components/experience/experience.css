@@ -18,6 +18,7 @@
 .experience__backend:hover {
 	border: 1px solid var(--first-color);
 	background-color: var(--body-color);
+	transform: scale(1.05);
 }
 
 .experience__title {

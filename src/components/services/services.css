@@ -16,6 +16,7 @@
 .service:hover {
     background: var(--body-color);
     border: 1px solid var(--first-color-alt);
+    transform: scale(1.05);
 }
 
 .service__head {

@@ -65,6 +65,7 @@
     background: var(--title-color);
 	border: 1px solid var(--first-color);
     color: var(--body-color);
+    transform: scale(1.05);
     cursor: pointer;
 }
 
