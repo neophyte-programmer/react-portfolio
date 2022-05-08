@@ -7,6 +7,56 @@ import img4 from '../../assets/portfolio4.jpg'
 import img5 from '../../assets/portfolio5.png'
 import img6 from '../../assets/portfolio6.jpg'
 
+
+// Array to store portfolio details in an object and then map through the object to display the portfolio items
+const data = [
+  {
+    id: 1,
+    image: img1,
+    title: 'Portfolio 1',
+    github: 'https://github.com/neophyte-programmer',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 2,
+    image: img2,
+    title: 'Portfolio 2',
+    github: 'https://github.com/neophyte-programmer',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 3,
+    image: img3,
+    title: 'Portfolio 3',
+    github: 'https://github.com/neophyte-programmer',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 4,
+    image: img4,
+    title: 'Portfolio 4',
+    github: 'https://github.com/neophyte-programmer',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 5,
+    image: img5,
+    title: 'Portfolio 5',
+    github: 'https://github.com/neophyte-programmer',
+    demo: 'https://dribbble.com/Alien_pixels'
+  },
+  {
+    id: 6,
+    image: img6,
+    title: 'Portfolio 6',
+    github: 'https://github.com/neophyte-programmer',
+    demo: 'https://dribbble.com/Alien_pixels'
+  }
+]
+
+
+
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className='section'>
@@ -26,66 +76,7 @@ const Portfolio = () => {
          </div>
 
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={img1} alt="" />
-          </div>
-          <h3 className="portfolio__title">Item Title</h3>
-         
-         <div className='portfolio__btns'>
-           <a href="https://github.com/neophyte-programmer" target="_blank" className="btn">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" target="_blank" className="btn btn--primary">Demo</a>
-         </div>
-
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={img1} alt="" />
-          </div>
-          <h3 className="portfolio__title">Item Title</h3>
-         
-         <div className='portfolio__btns'>
-           <a href="https://github.com/neophyte-programmer" target="_blank" className="btn">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" target="_blank" className="btn btn--primary">Demo</a>
-         </div>
-
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={img1} alt="" />
-          </div>
-          <h3 className="portfolio__title">Item Title</h3>
-         
-         <div className='portfolio__btns'>
-           <a href="https://github.com/neophyte-programmer" target="_blank" className="btn">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" target="_blank" className="btn btn--primary">Demo</a>
-         </div>
-
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={img1} alt="" />
-          </div>
-          <h3 className="portfolio__title">Item Title</h3>
-         
-         <div className='portfolio__btns'>
-           <a href="https://github.com/neophyte-programmer" target="_blank" className="btn">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" target="_blank" className="btn btn--primary">Demo</a>
-         </div>
-
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__img">
-            <img src={img1} alt="" />
-          </div>
-          <h3 className="portfolio__title">Item Title</h3>
-         
-         <div className='portfolio__btns'>
-           <a href="https://github.com/neophyte-programmer" target="_blank" className="btn">Github</a>
-          <a href="https://dribbble.com/Alien_pixels" target="_blank" className="btn btn--primary">Demo</a>
-         </div>
-
-        </article>
+       
       </div>
     </section>
   )
