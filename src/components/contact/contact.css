@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    margin-top: 3rem;
 }
 
 .contact__options {
@@ -44,6 +45,27 @@
     font-weight: 400;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    border: 2px solid var(--first-color);
+    font-family: var(--body-font);
+    color: var(--text-color);
+    font-size: 1rem;
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--text-color-light);
+}
 
 /*=============== GENERAL MEDIA QUERIES ===============*/
 /* ==== Medium Devices ==== */
