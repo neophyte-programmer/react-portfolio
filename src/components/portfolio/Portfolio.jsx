@@ -82,7 +82,7 @@ const Portfolio = () => {
 								<div className='portfolio__img'>
 									<img src={image} alt='' />
 								</div>
-                <h3 className='portfolio__title'>{title}</h3>
+								<h3 className='portfolio__title'>{title}</h3>
 
 								<div className='portfolio__btns'>
 									<a
