@@ -55,7 +55,6 @@ const Testimonials = () => {
         pagination={true}
 				spaceBetween={40}
 				slidesPerView={1}
-				// pagination={{ clickable: true }}
 			>
 				{/* Hardcoded testimonials  */}
 				{/* <article className='testimonial'>
