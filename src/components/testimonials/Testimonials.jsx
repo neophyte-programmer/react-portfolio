@@ -6,14 +6,12 @@ import avatar3 from '../../assets/avatar3.jpg'
 import avatar4 from '../../assets/avatar4.jpg'
 
 // import Swiper core and required modules
-import { Pagination } from 'swiper';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react'
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 // Array to store testimonial details in an object and then map through the object to display the testimonials
 // id is going to be the unique key for each testimonial item
@@ -50,8 +48,16 @@ const Testimonials = () => {
 			<h5 className='section__subtitle'>What People Say</h5>
 			<h2 className='section__title'>My Testimonials</h2>
 
-      <div className='container testimonials__container'>
-        {/* Hardcoded testimonials  */}
+			<Swiper
+        className='container testimonials__container'
+				// install Swiper modules
+				modules={[Pagination]}
+        pagination={true}
+				spaceBetween={40}
+				slidesPerView={1}
+				// pagination={{ clickable: true }}
+			>
+				{/* Hardcoded testimonials  */}
 				{/* <article className='testimonial'>
 					<div className='client__avatar'>
 						<img src={avatar4} alt='' />
@@ -67,16 +73,16 @@ const Testimonials = () => {
 				{/* Map through the object to display the testimonials */}
 				{data.map(({ id, avatar, name, review }) => {
 					return (
-						<article className='testimonial' key={id}>
+						<SwiperSlide className='testimonial' key={id}>
 							<div className='client__avatar'>
 								<img src={avatar} alt='' />
 							</div>
 							<h5 className='client__name'>{name}</h5>
 							<small className='client__review'>{review}</small>
-						</article>
+						</SwiperSlide>
 					)
 				})}
-			</div>
+			</Swiper>
 		</section>
 	)
 }
