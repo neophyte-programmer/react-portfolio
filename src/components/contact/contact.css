@@ -70,11 +70,16 @@ input::placeholder, textarea::placeholder {
 /*=============== GENERAL MEDIA QUERIES ===============*/
 /* ==== Medium Devices ==== */
 @media screen and (max-width: 1024px) {
-	
+	.container.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
 
 
 /* ==== Small Devices ==== */
 @media screen and (max-width: 600px) {
-    
+    .container.contact__container {
+        width: var(--container-width-sm);
+    }
 }
