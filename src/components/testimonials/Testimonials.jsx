@@ -5,6 +5,16 @@ import avatar2 from '../../assets/avatar2.jpg'
 import avatar3 from '../../assets/avatar3.jpg'
 import avatar4 from '../../assets/avatar4.jpg'
 
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
 // Array to store testimonial details in an object and then map through the object to display the testimonials
 // id is going to be the unique key for each testimonial item
 const data = [
