@@ -1,4 +1,48 @@
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+}
 
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: var(--container-color);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    border: 1px solid var(--first-color);
+	text-align: center;
+    transition: var(--transition);
+}
+
+.contact__option:hover {
+    background: var(--title-color);  
+    border: 1px solid var(--first-color);
+    color: var(--body-color);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.contact__icon {
+    color: var(--first-color);
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+}
+
+.contact__link {
+    margin-top: .7rem;
+    display: inline-block;
+    font-size: var(--small-font-size);
+}
+
+.contact__handle {
+    font-weight: 400;
+}
 
 
 /*=============== GENERAL MEDIA QUERIES ===============*/
