@@ -49,10 +49,10 @@ const Testimonials = () => {
 			<h2 className='section__title'>My Testimonials</h2>
 
 			<Swiper
-        className='container testimonials__container'
+				className='container testimonials__container'
 				// install Swiper modules
 				modules={[Pagination]}
-        pagination={true}
+				pagination={true}
 				spaceBetween={40}
 				slidesPerView={1}
 			>
