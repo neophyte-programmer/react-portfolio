@@ -1,13 +1,68 @@
-
-
-/*=============== GENERAL MEDIA QUERIES ===============*/
-/* ==== Medium Devices ==== */
-@media screen and (max-width: 1024px) {
-	
+footer {
+    background: var(--first-color);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: .9rem;
+    margin-top: 7rem;
 }
 
+.footer__logo, .permalink {
+    color : var(--body-color);
+}
 
+.footer__logo {
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+.footer__logo:hover, .permalink:hover{
+    color: #fff;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.footer__socials a {
+    background: var(--body-color);
+    color: #fff;
+    padding: .8rem;
+    border-radius: .7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer__socials a:hover {
+    border: 1px solid var(--body-color);
+    color: var(--body-color);
+    background: transparent;
+    transform: scale(1.05);
+}
+
+.footer__copyright {
+    color: var(--body-color);
+    font-size: .9rem;
+    margin-bottom: 4rem;
+}
+
+/*=============== GENERAL MEDIA QUERIES ===============*/
 /* ==== Small Devices ==== */
 @media screen and (max-width: 600px) {
-    
+    .permalinks {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }
