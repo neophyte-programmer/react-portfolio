@@ -22,25 +22,25 @@ const About = () => {
             <article className="about__card">
               <GiMedal className="about__card-icon" />
               <h5>Experience</h5>
-              <small>3+ Years</small>
+              <small>2+ Years</small>
             </article>
 
             <article className="about__card">
               <BsPeople className="about__card-icon" />
-              <h5>Clients</h5>
-              <small> 200+ Worldwide </small>
+              <h5>Support</h5>
+              <small> Online 24/7 </small>
             </article>
             
             <article className="about__card">
               <BiLibrary className="about__card-icon" />
               <h5>Projects</h5>
-              <small> 80+ Completed </small>
+              <small> 20+ Completed </small>
             </article>
 
           </div>
 
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed sapiente, perferendis tempora atque, a modi, cum expedita sint optio laboriosam minus quod dolorem aut quam velit pariatur minima aspernatur!
+          My name is Nutifafa Afi Attor. I am an 19 year old living in Accra, Ghana. I am currently an undergraduate student in the University of Ghana studying Information Technology. I like to solve problems using technology.
           </p>
 
           <a href="#contact" className="btn btn--primary">
