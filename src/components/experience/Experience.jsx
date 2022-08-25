@@ -9,8 +9,9 @@ import {
 	DiMysql,
 } from 'react-icons/di'
 import { BsBootstrap } from 'react-icons/bs'
-import { SiTailwindcss, SiReact } from 'react-icons/si'
+import { SiTailwindcss, SiReact, SiNextdotjs, SiFirebase, SiExpress } from 'react-icons/si'
 import { FaNodeJs, FaPython } from 'react-icons/fa'
+
 
 const Experience = () => {
 	return (
@@ -22,7 +23,25 @@ const Experience = () => {
 				<div className='experience__frontend'>
 					<h3 className='experience__title'>Frontend Development</h3>
 					<div className='experience__content'>
+					<article className='experience__item'>
+							<SiReact className='experience__icon' />
+							<div>
+								<h4 className='experience__subtitle'>React</h4>
+								<p className='experience__description'>
+									Intermediate
+								</p>
+							</div>
+						</article>
 						<article className='experience__item'>
+							<SiNextdotjs className='experience__icon' />
+							<div>
+								<h4 className='experience__subtitle'>NextJS</h4>
+								<p className='experience__description'>
+									Intermediate
+								</p>
+							</div>
+						</article>
+						{/* <article className='experience__item'>
 							<AiOutlineHtml5 className='experience__icon' />
 							<div>
 								<h4 className='experience__subtitle'>HTML5</h4>
@@ -30,13 +49,13 @@ const Experience = () => {
 									Intermediate
 								</p>
 							</div>
-						</article>
+						</article> */}
 						<article className='experience__item'>
 							<DiCss3Full className='experience__icon' />
 							<div>
 								<h4 className='experience__subtitle'>CSS</h4>
 								<p className='experience__description'>
-									Intermediate
+									Experienced
 								</p>
 							</div>
 						</article>
@@ -69,19 +88,11 @@ const Experience = () => {
 									Tailwind
 								</h4>
 								<p className='experience__description'>
-									Intermediate
+									Experienced
 								</p>
 							</div>
 						</article>
-						<article className='experience__item'>
-							<SiReact className='experience__icon' />
-							<div>
-								<h4 className='experience__subtitle'>React</h4>
-								<p className='experience__description'>
-									Intermediate
-								</p>
-							</div>
-						</article>
+						
 					</div>
 				</div>
 				<div className='experience__backend'>
@@ -94,25 +105,25 @@ const Experience = () => {
 									Node JS
 								</h4>
 								<p className='experience__description'>
-									Intermediate
+									Beginner
 								</p>
 							</div>
 						</article>
 						<article className='experience__item'>
-							<DiPhp className='experience__icon' />
+							<SiFirebase className='experience__icon' />
 							<div>
-								<h4 className='experience__subtitle'>PHP</h4>
+								<h4 className='experience__subtitle'>Firebase</h4>
 								<p className='experience__description'>
-									Intermediate
+									Beginner
 								</p>
 							</div>
 						</article>
 						<article className='experience__item'>
-							<FaPython className='experience__icon' />
+							<SiExpress className='experience__icon' />
 							<div>
-								<h4 className='experience__subtitle'>Python</h4>
+								<h4 className='experience__subtitle'>Express</h4>
 								<p className='experience__description'>
-									Intermediate
+									Express
 								</p>
 							</div>
 						</article>
@@ -123,16 +134,16 @@ const Experience = () => {
 									MongoDB
 								</h4>
 								<p className='experience__description'>
-									Intermediate
+									Beginner
 								</p>
 							</div>
 						</article>
 						<article className='experience__item'>
-							<DiMysql className='experience__icon' />
+							<SiNextdotjs className='experience__icon' />
 							<div>
-								<h4 className='experience__subtitle'>MySQL</h4>
+								<h4 className='experience__subtitle'>NextAuth</h4>
 								<p className='experience__description'>
-									Intermediate
+									Beginner
 								</p>
 							</div>
 						</article>
