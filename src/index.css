@@ -163,13 +163,13 @@ img {
 
 .btn--primary {
 	background-color: var(--first-color);
-	color: var(--body-color);
+	color: #fff;
 	border: transparent;
 }
 
 .btn--primary:hover {
 	background-color: var(--first-color-alt);
-	color: var(--body-color);
+	color: #fff;
 	border: transparent;
 }
 
