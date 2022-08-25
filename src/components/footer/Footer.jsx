@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
-import { FiTwitter } from 'react-icons/fi'
+import { FaInstagram } from 'react-icons/fa'
+import { FiTwitter, FiGithub } from 'react-icons/fi'
 
 const Footer = () => {
 	return (
@@ -49,20 +49,22 @@ const Footer = () => {
 			</ul>
 
 			<div className='footer__socials'>
-				<a href='https://facebook.com'>
-					<FaFacebookF className='footer__social-icon' />
+				<a href='https://github.com/neophyte-programmer'>
+					<FiGithub className='footer__social-icon' />
 				</a>
-        <a href='https://instagram.com'>
-          <FaInstagram className='footer__social-icon' />
-        </a>
-        <a href='https://twitter.com'>
-          <FiTwitter className='footer__social-icon' />
-        </a>
-      </div>
-      
-      <div className="footer__copyright">
-        <small className="footer__copy-text">Nutifafa. All Rights Reserved. </small>
-      </div>
+				<a href='https://instagram.com/n.utifafa'>
+					<FaInstagram className='footer__social-icon' />
+				</a>
+				<a href='https://twitter.com/Nutifafa18'>
+					<FiTwitter className='footer__social-icon' />
+				</a>
+			</div>
+
+			<div className='footer__copyright'>
+				<small className='footer__copy-text'>
+					Nutifafa. All Rights Reserved.{' '}
+				</small>
+			</div>
 		</footer>
 	)
 }
