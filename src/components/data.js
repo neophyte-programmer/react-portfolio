@@ -1,4 +1,4 @@
-import { alex, elvis, bentil } from "../assets/assets"
+import { alex, elvis, bentil, instagram, gericht, tour, netflix, delivery, recipe } from "../assets/assets"
 
 export const testimonials = [
     {
@@ -19,11 +19,57 @@ export const testimonials = [
 		name: 'Elvis Komla Agbesi',
 		review: 'From day one, I knew she was a star; a super fast learner. Never have I seen anyone progress this fast at this level in my life. She\'s at the top of her game.',
 	},
+	
+]
+
+export const portfolio = [
+    {
+		id: 1,
+		image: instagram,
+		title: 'Instagram Clone',
+        desc: 'Built with NextJS, TailwindCSS, NextAuthJS and Firebase',
+		github: 'https://github.com/neophyte-programmer/instagram',
+		demo: 'https://instagram-clone-two-neon.vercel.app/',
+	},
+	{
+		id: 2,
+		image: netflix,
+		title: 'Netflix Clone',
+        desc: 'Built with ReactJS and authenticated with Firebase.',
+		github: 'https://github.com/neophyte-programmer/netflix-clone',
+		demo: 'https://github.com/neophyte-programmer/netflix-clone',
+	},
+	{
+		id: 3,
+		image: gericht,
+		title: 'Gericht',
+        desc: 'This is a modern UI restaurant website built with ReactJS.',
+		github: 'https://github.com/neophyte-programmer',
+		demo: 'https://gericht-restaurant-app.herokuapp.com/',
+	},
 	{
 		id: 4,
-		avatar: alex,
-		name: 'Kayla Mitchell',
-		review: 'What a helpful bunch. After being scammed by another web design company, I was recommended Fluid Studios and I now know why. They are quick to respond, informative and deliver what is asked for. Would highly recommend. Thanks guys!',
+		image: tour,
+		title: 'Tour Ghana',
+        desc: 'View available tours in Ghana',
+		github: 'https://github.com/neophyte-programmer/tour-ghana-website',
+		demo: 'https://tour-ghana-web.netlify.app/',
+	},
+	{
+		id: 5,
+		image: delivery,
+		title: 'Nuti\'s Delivery',
+        desc: 'A delivery website built with HTML, CSS and JavaScript',
+		github: 'https://github.com/neophyte-programmer/nutis-delivery-website',
+		demo: 'https://nutisdelivery.netlify.app/',
+	},
+	{
+		id: 6,
+		image: recipe,
+		title: 'Nuti\'s Recipes',
+        desc: 'Food Recipe App built with JavaScript',
+		github: 'https://github.com/neophyte-programmer/nutis-recipes',
+		demo: 'https://nutis-recipes.netlify.app/',
 	},
 ]
 
