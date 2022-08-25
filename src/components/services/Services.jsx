@@ -9,7 +9,7 @@ const Services = () => {
 			<h2 className='section__title'>Services</h2>
 
 			<div className=' container services__container'>
-				<article className='service'>
+				{/* <article className='service'>
 					<div className='service__head'>
 						<h3 className='service__title'>UI / UX Design</h3>
 					</div>
@@ -38,24 +38,54 @@ const Services = () => {
               
 						</ul>
 					</div>
-				</article>
+				</article> */}
 				<article className='service'>
 					<div className='service__head'>
-						<h3 className='service__title'>Web Development</h3>
+						<h3 className='service__title'>Frontend Development</h3>
 					</div>
 					<div className='service__body'>
 						<ul className='service__list'>
               <li className='list__item'>
                 <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="list__description">Client side development with necessary tools</p>
               </li>
               <li className='list__item'>
                 <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="list__description">Testing the website for usabilty</p>
               </li>
               <li className='list__item'>
                 <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="list__description">Optional maintenance of website - Paid</p>
+              </li>
+              <li className='list__item'>
+                <BsCheck2All className='list__icon' />
+                <p className="list__description">Ensuring browser compatability</p>
+              </li>
+              <li className='list__item'>
+                <BsCheck2All className='list__icon' />
+                <p className="list__description">Website functionality</p>
+              </li>
+              <li className='list__item'>
+                <BsCheck2All className='list__icon' />
+                <p className="list__description">Working with UI/UX Designers to bring website to life.</p>
+              </li>
+              
+						</ul>
+					</div>
+				</article>
+				{/* <article className='service'>
+					<div className='service__head'>
+						<h3 className='service__title'>Backend Development</h3>
+					</div>
+					<div className='service__body'>
+						<ul className='service__list'>
+              <li className='list__item'>
+                <BsCheck2All className='list__icon' />
+                <p className="list__description">User Authentication</p>
+              </li>
+              <li className='list__item'>
+                <BsCheck2All className='list__icon' />
+                <p className="list__description">Testing</p>
               </li>
               <li className='list__item'>
                 <BsCheck2All className='list__icon' />
@@ -72,37 +102,7 @@ const Services = () => {
               
 						</ul>
 					</div>
-				</article>
-				<article className='service'>
-					<div className='service__head'>
-						<h3 className='service__title'>Content Creation</h3>
-					</div>
-					<div className='service__body'>
-						<ul className='service__list'>
-              <li className='list__item'>
-                <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
-              </li>
-              <li className='list__item'>
-                <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
-              </li>
-              <li className='list__item'>
-                <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
-              </li>
-              <li className='list__item'>
-                <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
-              </li>
-              <li className='list__item'>
-                <BsCheck2All className='list__icon' />
-                <p className="list__description">Lorem ipsum dolor sit amet consectetur.</p>
-              </li>
-              
-						</ul>
-					</div>
-				</article>
+				</article> */}
 			</div>
 		</section>
 	)
