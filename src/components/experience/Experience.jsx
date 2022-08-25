@@ -1,16 +1,13 @@
 import React from 'react'
 import './experience.css'
-import { AiOutlineHtml5 } from 'react-icons/ai'
 import {
 	DiCss3Full,
 	DiJavascript1,
-	DiPhp,
 	DiMongodb,
-	DiMysql,
 } from 'react-icons/di'
 import { BsBootstrap } from 'react-icons/bs'
 import { SiTailwindcss, SiReact, SiNextdotjs, SiFirebase, SiExpress } from 'react-icons/si'
-import { FaNodeJs, FaPython } from 'react-icons/fa'
+import { FaNodeJs } from 'react-icons/fa'
 
 
 const Experience = () => {
