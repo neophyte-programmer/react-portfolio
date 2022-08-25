@@ -1,3 +1,10 @@
 export { default as alex } from "./alex.jpg"
 export { default as elvis } from "./elvis.jpg"
 export { default as bentil } from "./bentil.jpg"
+
+export { default as tour } from "./tour_website.png"
+export { default as gericht } from "./gericht.png"
+export { default as instagram } from "./instagram.png"
+export { default as netflix } from "./netflix.png"
+export { default as delivery } from "./delivery_site.png"
+export { default as recipe } from "./recipe.png"
