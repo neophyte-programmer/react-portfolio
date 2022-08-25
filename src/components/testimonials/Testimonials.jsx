@@ -1,10 +1,5 @@
 import React from 'react'
 import './testimonials.css'
-import avatar1 from '../../assets/avatar1.jpg'
-import avatar2 from '../../assets/avatar2.jpg'
-import avatar3 from '../../assets/avatar3.jpg'
-import avatar4 from '../../assets/avatar4.jpg'
-import { alex } from '../../assets/assets'
 import { testimonials } from '../data'
 
 // import Swiper core and required modules
