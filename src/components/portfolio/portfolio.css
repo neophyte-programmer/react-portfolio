@@ -19,12 +19,15 @@
 }
 
 .portfolio__img {
+	width: 100%;
+	object-fit: cover;
+	max-height: 70%;
 	border-radius: 1.5rem;
 	overflow: hidden;
 }
 
 .portfolio__title {
-	margin: 1.2rem 0 2rem;
+	margin: 1rem 0 .2rem 0;
 }
 
 .portfolio__btns {
