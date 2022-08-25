@@ -1,7 +1,6 @@
 import React from 'react'
 import './contact.css'
-import { BsEnvelope, BsWhatsapp } from 'react-icons/bs'
-import { RiMessengerLine } from 'react-icons/ri'
+import { BsEnvelope, BsWhatsapp, BsTelegram } from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -31,21 +30,21 @@ const Contact = () => {
           <article className="contact__option">
             <BsEnvelope className="contact__icon" />
             <h4 className="contact__title">Email</h4>
-            <h5 className="contact__handle">nutifafa@lorem.com</h5>
+            <h5 className="contact__handle">attorfafa@gmail.com</h5>
             <a href="mailto:attorfafa@gmail.com" className="contact__link">Send a message</a> 
           </article>
 
           <article className="contact__option">
-            <RiMessengerLine className="contact__icon" />
-            <h4 className="contact__title">Messenger</h4>
-            <h5 className="contact__handle">random_handle</h5>
-            <a href="https://facebook.com" className="contact__link">Send a message</a> 
+            <BsTelegram className="contact__icon" />
+            <h4 className="contact__title">Telegram</h4>
+            <h5 className="contact__handle">sayaprayer</h5>
+            <a href="https://t.me/sayaprayer" className="contact__link">Send a message</a> 
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className="contact__icon" />
             <h4 className="contact__title">Whatsapp</h4>
-            <h5 className="contact__handle">123-456-7890</h5>
+            <h5 className="contact__handle">050 229 7337</h5>
             <a href="https://api.whatsapp.com/send?phone=+233502297337" className="contact__link">Send a message</a> 
           </article>
 
