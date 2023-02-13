@@ -25,7 +25,7 @@ const Experience = () => {
 							<div>
 								<h4 className='experience__subtitle'>React</h4>
 								<p className='experience__description'>
-									Intermediate
+									Experienced
 								</p>
 							</div>
 						</article>
@@ -34,7 +34,7 @@ const Experience = () => {
 							<div>
 								<h4 className='experience__subtitle'>NextJS</h4>
 								<p className='experience__description'>
-									Intermediate
+									Experienced
 								</p>
 							</div>
 						</article>
@@ -111,7 +111,7 @@ const Experience = () => {
 							<div>
 								<h4 className='experience__subtitle'>Firebase</h4>
 								<p className='experience__description'>
-									Beginner
+									Experienced
 								</p>
 							</div>
 						</article>
